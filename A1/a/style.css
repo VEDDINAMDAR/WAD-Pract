@@ -1,0 +1,79 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+    min-height: 100vh;
+}
+
+.side-menu{
+
+    position: fixed;
+    background-color: skyblue;
+    width: 37vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side-menu .Brand-name{
+
+    font-style: normal;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li{ 
+
+    font-size: 20px;
+    padding: 10px 40px;
+    align-items: center;
+    display: flex;
+
+}
+
+.side-menu li:hover{
+           color: skyblue;
+           background: black;
+           
+
+
+}
+
+.side-menu li img{
+
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: lightgray;
+}
+
+.container .Header {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 80vw;
+            height: 12vh;
+            background: white;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 8);
+
+}
+
+
